@@ -1,0 +1,7 @@
+django==5.2.6
+pip==25.1.1
+djangorestframework==3.16.1
+celery==5.5.3
+django-celery-beat==2.8.1
+redis==7.0.0
+six==1.17.0
