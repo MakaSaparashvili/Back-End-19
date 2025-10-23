@@ -4,9 +4,9 @@ Task
 1. Create the Product Model
 Create a Django model named Product with fields:
 
-from django.db import models
+ from django.db import models
 
-class Product(models.Model):
+ class Product(models.Model):
     name = models.CharField(max_length=100)
     expiration_date = models.DateField()
     is_active = models.BooleanField(default=True)
